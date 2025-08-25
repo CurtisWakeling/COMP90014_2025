@@ -85,7 +85,7 @@ If running Linux via WSL, connect VSC to your Linux distribution each time it is
 
 <br>
 
-<img src="tutorials/media/readme/vsc_wsl.gif" width="800">
+<img src="./readme/vsc_wsl.gif" width="800">
 
 
 **Adding Extensions**
@@ -107,12 +107,12 @@ Add the following extensions (or confirm they are already installed):
 
 <br>
 
-<img src="tutorials/media/readme/vsc_extensions.gif" width="200">
+<img src="./readme/vsc_extensions.gif" width="200">
 
 
 <br> 
 
-## Cloning and Pulling
+## Accessing Tutorial/Assignment Material
 
 **First time**
 
@@ -134,7 +134,7 @@ This folder is now present on your computer.  <br>
 To access it again later, just open the folder in VSC (no need to clone the repository again).
 
 <br>
-<img src="tutorials/media/readme/clone_repo.gif" width="600">
+<img src="./readme/clone_repo.gif" width="600">
 
 
 
@@ -142,15 +142,21 @@ To access it again later, just open the folder in VSC (no need to clone the repo
 
 **Weekly Updates**
 
-We update tutorial notebooks, provide solutions, and publish assignment material during the semester. 
+For each week, we update new tutorial materials through GitHub.
 
-Before each tutorial (and assignment) you will need to 'pull' these changes so you have the correct version. 
+You need to sync your local version of the COMP90014_2025 repository each week to pull these updates. 
 
-How-to:
-1. Navigate to the 'Source Control' tab
-2. Click the three dots '...' next to the 'CHANGES' heading
-3. Select 'Pull'
+As some students have experienced merge conflicts when working directly within the COMP90014_2025 folder on their computer, here are new instructions. 
+
+1. Open the COMP90014_2025 cloned folder using VS Code.
+2. Navigate to the 'Source Control' tab.
+3. Click the three dots '...' next to the 'CHANGES' heading.
+4. Select 'Pull' to sync updates.
+5. ***Copy the updated week tutorial / assignment folder to a separate location on your computer [NEW INSTRUCTION]***
+6. ***Finally, open VS Code to the new folder [NEW INSTRUCTION]***
+
+By copying the tutorial / assignment folder into a new location (outside the COMP90014_2025 folder), any updates to the official material won't conflict with changes you have made. This is because the copied folder is no longer within your local version of the COMP90014_2025 repository. 
 
 <br>
-<img src="tutorials/media/readme/pull_repo.gif" width="600">
+<img src="./readme/pull_repo.gif" width="600">
 
